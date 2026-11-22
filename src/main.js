@@ -1,0 +1,7 @@
+import './scss/main.scss'
+import './js/events'
+import './js/footer'
+import './js/hero'
+import './js/header'
+import './js/pagination'
+import './js/modal'
