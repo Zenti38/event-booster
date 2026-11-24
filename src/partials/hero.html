@@ -3,9 +3,27 @@
         <h1 class="hero_title">FIND BEST EVENTS AROUND THE WORLD</h1>
 
         <form id="hero_form">
-            <input type="text" name="name" id="hero_form_name" class="hero_form_input" placeholder="Start Searching">
-            <input type="text" name="country"
+            <label id="hero_form_divForName">
+                
+                <input type="text" name="name" id="hero_form_name" class="hero_form_input" placeholder="Start Searching">
+
+                <svg class="hero_svgs" id="hero_form_lupa">
+                    <use href="../../svg/symbol-defs.svg#icon-hero_lupa"></use>
+                </svg>
+
+            </label>
+
+
+            <label id="hero_form_divForCountry">
+                
+                <input type="text" name="country"
             id="hero_form_Country" class="hero_form_input" placeholder="Choose country">
+            
+            <svg class="hero_svgs" id="hero_form_arrow_bottom">
+                <use href="../../svg/symbol-defs.svg#icon-hero_arrow_bottom"></use>
+            </svg>
+
+        </label>
         </form>
     </div>
 </section>
