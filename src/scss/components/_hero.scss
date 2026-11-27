@@ -1,0 +1,149 @@
+.hero {
+    //phone
+    background-image: url("/imgs/phone/x1/hero.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-top:78px;
+    padding-bottom: 112px;
+
+    @media(min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("/imgs/phone/x2/hero.webp");
+    }
+
+    @media(min-device-pixel-ratio: 3), (min-resolution: 384dpi) {
+    background-image: url("/imgs/phone/x3/hero.webp");
+    }
+
+    @media screen and (min-width: 767px) {
+    background-image: url("/imgs/tablet/x1/hero.webp");
+    padding-top: 40px;
+    padding-bottom:183px;
+
+     @media (min-device-pixel-ratio: 2),(min-resolution:192dpi) {
+        background-image: url("/imgs/tablet/x2/hero.webp");
+     };
+
+     @media (min-device-pixel-ratio:3), (min-resolution: 384dpi) {
+        background-image: url("/imgs/tablet/x3/hero.webp");
+     }
+    }
+
+    @media screen and (min-width: 1199px) {
+    background-image: url("/imgs/laptop/x1/hero.webp");
+    padding-bottom:192px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("/imgs/laptop/x2/hero.webp");
+    };
+
+    @media (min-device-pixel-ratio: 3), (min-resolution: 384dpi) {
+    background-image: url("/imgs/laptop/x3/hero.webp");
+    };
+    }
+
+    @media screen and (min-width: 1910px) {
+    background-image: url("/imgs/laptop/x1/hero.webp");
+    padding-bottom:290px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("/imgs/laptop/x2/hero.webp");
+    };
+
+    @media (min-device-pixel-ratio: 3), (min-resolution: 384dpi) {
+    background-image: url("/imgs/laptop/x3/hero.webp");
+    };
+    }
+}
+
+.hero_title {
+    //phone
+    font-size: 18px;
+    color: #DC56C5;
+    text-align: center;
+    font-family:montserrat;
+
+    margin-bottom: 25px;
+    width: 212px;
+    
+    @media screen and (min-width: 767px) {
+    margin-bottom: 27px;
+    font-size: 30px;
+    width: 353px;
+    }
+
+    @media screen and (min-width: 1199px) {
+    font-size:50px;
+    margin-bottom: 52px;
+    width: 588px;
+    }
+}
+
+#hero_form {
+    text-align: center;
+}
+
+.hero_form_input {
+    //phone
+    width: 240px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 35px;
+
+    border-radius: 20px;
+    border-style: none;
+
+    font-size: 16px;
+    color: aliceblue;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+
+    font-family: montserrat;
+}
+
+.hero_form_input::placeholder {
+    color: #939393;
+    position: relative;
+}
+
+.hero_svgs {
+    width: 12px;
+    height: 12px;
+}
+
+#hero_form_divForName {
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+    margin-right: 30px;
+    }
+
+}
+
+#hero_form_name {
+    margin-bottom: 25px;
+    @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+    }
+}
+
+#hero_form_lupa {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+
+    transform: translate(-50%, -50%);
+}
+
+#hero_form_divForCountry {
+    position: relative;
+}
+
+#hero_form_arrow_bottom {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+
+    transform: translate(-50%, -50%);
+}
