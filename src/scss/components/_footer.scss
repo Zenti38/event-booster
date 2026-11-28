@@ -1,0 +1,26 @@
+
+footer {
+    padding-top: 61px;
+    padding-bottom: 27px;
+
+    @media screen and (min-width: 767px) {
+        padding-bottom: 13px
+    };
+    
+    @media screen and (min-width: 767px) {
+        padding-top: 80px
+    };
+}
+
+.footer_info {
+    color: #939393;
+    width: 252px;
+    text-align: center;
+    font-family:montserrat;
+    font-size:14px;
+
+    @media screen and (min-width:767px) {
+        width: 521px;
+        font-size:16px;
+    }
+}

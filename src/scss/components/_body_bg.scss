@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+
+    background-image: url("../../../imgs/phone/x1/bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    background-image: url("../../../imgs/phone/x2/bg.webp");
+    };
+
+    @media (min-device-pixel-ratio:3), (min-resolution:384dpi) {
+    background-image: url("../../../imgs/phone/x3/bg.webp");
+    }
+
+    @media screen and (min-width: 767px) {
+     background-image: url("../../../imgs/tablet/x1/bgbody.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    background-image: url("../../../imgs/tablet/x2/bgbody.webp");
+    };
+
+    @media (min-device-pixel-ratio:3), (min-resolution:384dpi) {
+    background-image: url("../../../imgs/tablet/x3/bgbody.webp");
+    };
+    }
+
+    @media screen and (min-width: 1199px) {
+        background-image: url("../../../imgs/laptop/x1/bgbody.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media (min-device-pixel-ratio:2), (min-resolution:192dpi) {
+    background-image: url("../../../imgs/laptop/x2/bgbody.webp");
+    };
+
+    @media (min-device-pixel-ratio:3), (min-resolution:384dpi) {
+    background-image: url("../../../imgs/laptop/x2/bgbody.webp");
+    };
+    }
+}
